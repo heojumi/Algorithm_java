@@ -1,8 +1,9 @@
 package chap03;
 
 import java.util.Scanner;
-
+//보초법
 public class SeqSearchSen {
+
     static int seqSearchSen(int[] a, int n, int key){
         int i =0;
 
@@ -13,6 +14,7 @@ public class SeqSearchSen {
                 break;
             i++;
         }
+        //보초값과 같다면 -1 return
         return i ==n ? -1 :i;
     }
 
